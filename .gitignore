@@ -1,0 +1,59 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Production environment variables
+.env
+.env.*
+
+# Temporary files
+.tmp/
+temp/
+*.tmp
+*.temp
+
+# Cache
+.cache/
+.cache-loader/
+npm-cache/
+yarn-cache/
+coverage/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+*.swp
+*.lock
+
+# TypeScript files
+*.tsbuildinfo
+
+# Jest test coverage
+coverage/
+
+# Docker files
+.docker/
+docker-compose.override.yml
+
+# Debugger logs
+*.log
+*.trace
+
+# Optional: Ignore any specific tools or configs you don't want in the repo
+/.husky/
